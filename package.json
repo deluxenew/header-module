@@ -1,6 +1,6 @@
 {
   "name": "header-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My new Nuxt module",
   "repository": "your-org/header-module",
   "license": "MIT",
