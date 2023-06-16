@@ -1,8 +1,8 @@
 {
   "name": "header-module",
-  "version": "1.0.6",
-  "description": "My new Nuxt module",
-  "repository": "your-org/header-module",
+  "version": "1.0.7",
+  "description": "Nuxt module HeaderComponent",
+  "repository": "deluxenew/header-module",
   "license": "MIT",
   "type": "module",
   "exports": {
