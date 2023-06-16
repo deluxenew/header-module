@@ -1,8 +1,9 @@
 <template>
   <div>
-    Nuxt module playground!
+    <header-component></header-component>
   </div>
 </template>
 
 <script setup>
+
 </script>

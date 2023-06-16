@@ -1,5 +1,6 @@
 import { defineNuxtPlugin } from '#app'
+import headerComponent from "./components/HeaderComponent.vue";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  console.log(nuxtApp, 'Plugin injected by header-module!')
+  nuxtApp.vueApp.component("header-component", headerComponent)
 })
