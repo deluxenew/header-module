@@ -14,7 +14,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+🤯 I apologize for the general availability of this module, this project is used as an experimental one. In the future I will try to make it really necessary and useful. Once again, I apologize for the lost time to study this miracle.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/header-module?file=playground%2Fapp.vue) -->

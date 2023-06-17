@@ -11,13 +11,13 @@ export default defineNuxtModule<ModuleOptions>({
   // Default configuration options of the Nuxt module
   defaults: {},
   setup (options, nuxt) {
-
+    console.log(options)
     const resolver = createResolver(import.meta.url)
-    addComponent({
-      name: 'HeaderComponent', // name of the component to be used in vue templates
-      export: 'HeaderComponent', // (optional) if the component is a named (rather than default) export
-      filePath: resolver.resolve('runtime/components/HeaderComponent.vue')
-    })
+    // addComponent({
+    //   name: 'headerComponent', // name of the component to be used in vue templates
+    //   export: 'headerComponent', // (optional) if the component is a named (rather than default) export
+    //   filePath: resolver.resolve('runtime/components/HeaderComponent.vue')
+    // })
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
   }
