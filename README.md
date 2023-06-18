@@ -1,13 +1,5 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: header-module
-- Description: My new Nuxt module
--->
-
-# My Module
+# Header Module 
+## The module components are based on TailwindCss and are created for the Nuxt 3 framework
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -17,15 +9,14 @@ Find and replace all on all files (CMD+SHIFT+F):
 🤯 I apologize for the general availability of this module, this project is used as an experimental one. In the future I will try to make it really necessary and useful. Once again, I apologize for the lost time to study this miracle.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/header-module?file=playground%2Fapp.vue) -->
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [🏀 Online playground](https://stackblitz.com/github/deluxenew/header-module?file=playground%2Fapp.vue) 
+- [📖 &nbsp;Documentation GitHub](https://github.com/deluxenew/header-module) 
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- ⛰ &nbsp;A simple header component for a website on next 3 with auto-import.
+- 🚠 &nbsp;4 slots for connecting other components
+- 🌲 &nbsp;Adaptive layout
 
 ## Quick Setup
 
@@ -50,6 +41,29 @@ export default defineNuxtConfig({
     'header-module'
   ]
 })
+```
+
+3. Connecting a component to a project
+
+```html
+<header-component>
+  <template #logo />
+  <template #menu />
+  <template #contacts />
+  <template #burger />
+</header-component>
+
+```
+
+Api for component:
+```ts
+props: {
+  headerClasses: {
+      type: String,
+      default: "", 
+      required: false
+  }
+}
 ```
 
 That's it! You can now use My Module in your Nuxt app ✨
