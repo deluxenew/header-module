@@ -7,6 +7,6 @@ export default defineNuxtConfig({
     test: 1
   },
   tailwindcss: {
-    cssPath: '~/src/runtime/main.css'
+    cssPath: '../src/runtime/main.css'
   },
 })

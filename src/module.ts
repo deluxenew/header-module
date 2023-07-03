@@ -15,8 +15,11 @@ export default defineNuxtModule<ModuleOptions>({
     nuxt.options.css.push(resolver.resolve('./runtime/main.css'))
     addComponent({
       name: 'HeaderComponent', // name of the component to be used in vue templates
-      // export: 'header-component', // (optional) if the component is a named (rather than default) export
       filePath: resolver.resolve('runtime/components/HeaderComponent.vue')
+    })
+    addComponent({
+      name: 'Canvas3D', // name of the component to be used in vue templates
+      filePath: resolver.resolve('runtime/components/Canvas3D.vue')
     })
 
   }

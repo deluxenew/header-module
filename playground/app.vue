@@ -1,6 +1,11 @@
 <template>
   <div>
-    <header-component></header-component>
+    <header-component >
+
+    </header-component>
+
+    <Canvas3D />
+
   </div>
 </template>
 
